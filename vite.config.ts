@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [vue(),
     VitePWA({
       mode: "development",
-      base: "/",
+      base: "/pwa_test/",
       srcDir: "src",
       filename: "sw.ts",
       includeAssets: ["vite.svg"],
