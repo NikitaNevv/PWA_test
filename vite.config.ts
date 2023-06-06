@@ -16,7 +16,7 @@ export default defineConfig({
         name: "Test Project",
         short_name: "Test",
         theme_color: "#ffffff",
-        start_url: "/pwa_test/",
+        start_url: "./index.html",
         display: "standalone",
         background_color: "#ffffff",
         icons: [
