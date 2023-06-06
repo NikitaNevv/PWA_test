@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-
+//@ts-ignore
 defineProps<{ msg: string }>()
 
 const count = ref(0)
