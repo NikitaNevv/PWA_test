@@ -10,28 +10,28 @@ export default defineConfig({
       base: "/pwa_test/",
       srcDir: "src",
       filename: "sw.ts",
-      includeAssets: ["vite.svg"],
+      includeAssets: ["./vite.svg"],
       strategies: "injectManifest",
       manifest: {
         name: "Test Project",
         short_name: "Test",
         theme_color: "#ffffff",
-        start_url: "/",
+        start_url: "/pwa_test/",
         display: "standalone",
         background_color: "#ffffff",
         icons: [
           {
-            src: "vite.svg",
+            src: "./vite.svg",
             sizes: "192x192",
             type: "image/svg",
           },
           {
-            src: "vite.svg",
+            src: "./vite.svg",
             sizes: "512x512",
             type: "image/svg",
           },
           {
-            src: "vite.svg",
+            src: "./vite.svg",
             sizes: "512x512",
             type: "image/svg",
             purpose: "any maskable",
