@@ -10,7 +10,7 @@ export default defineConfig({
       base: "/pwa_test/",
       srcDir: "src",
       filename: "sw.ts",
-      includeAssets: ["./vite.svg"],
+      includeAssets: ["./main.png"],
       strategies: "injectManifest",
       manifest: {
         name: "Test Project",
@@ -21,20 +21,20 @@ export default defineConfig({
         background_color: "#ffffff",
         icons: [
           {
-            src: "./vite.svg",
-            sizes: "192x192",
-            type: "image/svg",
+            src: "./main.png",
+            sizes: "512x512",
+            type: "image/png",
           },
           {
-            src: "./vite.svg",
+            src: "./main.png",
             sizes: "512x512",
-            type: "image/svg",
+            type: "image/png",
           },
           {
-            src: "./vite.svg",
+            src: "./main.png",
             sizes: "512x512",
-            type: "image/svg",
-            purpose: "any maskable",
+            type: "image/png",
+            purpose: "any",
           },
         ],
       },
