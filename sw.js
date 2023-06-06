@@ -1524,4 +1524,4 @@ function ye(r, e) {
 self.addEventListener("message", (r) => {
   r.data && r.data.type === "SKIP_WAITING" && self.skipWaiting();
 });
-ye([{"revision":null,"url":"assets/index-122ec74f.css"},{"revision":null,"url":"assets/index-e89ffb79.js"},{"revision":null,"url":"assets/workbox-window.prod.es5-a7b12eab.js"},{"revision":"4907120ff079e4fd5d596fa87d7e2040","url":"index.html"},{"revision":"c9c54359914def00d420cdc9097522c1","url":"manifest.webmanifest"}]);
+ye([{"revision":null,"url":"assets/index-122ec74f.css"},{"revision":null,"url":"assets/index-75c191f5.js"},{"revision":null,"url":"assets/workbox-window.prod.es5-a7b12eab.js"},{"revision":"d6dcd6880593be7386864dfbbb8c6ca7","url":"index.html"},{"revision":"8e3a10e157f75ada21ab742c022d5430","url":"vite.svg"},{"revision":"43db93a6ea5d0687af01349dbe0048e2","url":"manifest.webmanifest"}]);
