@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-
+//@ts-ignore
 defineProps<{ msg: string }>()
 
 const count = ref(0)
@@ -12,7 +12,7 @@ const count = ref(0)
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
-      Edit
+      Edit this is test should reload pwa btn appear
       <code>components/HelloWorld.vue</code> to test HMR
     </p>
   </div>
