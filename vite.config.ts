@@ -7,10 +7,10 @@ export default defineConfig({
   plugins: [vue(),
     VitePWA({
       mode: "development",
-      base: "/pwa_test/",
+      base: "/",
       srcDir: "src",
       filename: "sw.ts",
-      includeAssets: ["/favicon.png"],
+      includeAssets: ["vite.svg"],
       strategies: "injectManifest",
       manifest: {
         name: "Test Project",
@@ -21,17 +21,17 @@ export default defineConfig({
         background_color: "#ffffff",
         icons: [
           {
-            src: "./public/vite.svg",
+            src: "vite.svg",
             sizes: "192x192",
             type: "image/svg",
           },
           {
-            src: "./public/vite.svg",
+            src: "vite.svg",
             sizes: "512x512",
             type: "image/svg",
           },
           {
-            src: "./public/vite.svg",
+            src: "vite.svg",
             sizes: "512x512",
             type: "image/svg",
             purpose: "any maskable",
@@ -40,5 +40,4 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/pwa_test/',
 })
