@@ -40,5 +40,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/pwa_test/",
+  // base: "/pwa_test/",
 })
